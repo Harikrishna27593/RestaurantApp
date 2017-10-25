@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+
+.row {
+  display: flex; /* equal height of the children */
+}
+
+.col {
+  flex: 1; /* additionally, equal width */
+
+  padding: 1em;
+  border: solid;
+}
+
+.box {
+  width: 450px;
+  padding: 30px;
+  border: 2px solid gray;
+  margin: 0;
+}
+.button_example {float: right}
+
+
+.button_example2 {float: right;
+margin-right: 80px}
+
